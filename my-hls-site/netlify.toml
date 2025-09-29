@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+  publish = "."
+
+[[redirects]]
+  from = "/live.m3u8"
+  to = "/.netlify/functions/proxy-m3u8"
+  status = 200
+
